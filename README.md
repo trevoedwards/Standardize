@@ -9,3 +9,6 @@
                                                        
                                             
 ```
+<p align="center">
+<img align="center" src="https://github.com/trevoedwards/Standardize/blob/main/output_log.png" />
+<br>
