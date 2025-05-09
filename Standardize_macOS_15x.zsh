@@ -133,7 +133,7 @@ spctl --master-enable
 ### CONFIGURE THE USER'S DOCK #####
 ###################################
 
-log "🧼 Cleaning and configuring Dock..."
+log "🛁 Cleaning and configuring Dock..."
 
 until pgrep -x Dock &>/dev/null; do sleep 1; done
 
@@ -174,6 +174,6 @@ log "✅ Standardization complete for $currentUser"
 
 endTime=$(date +%s)
 elapsed=$((endTime - startTime))
-log "🕒 Script completed in ${elapsed} seconds."
+log "⌚ Script completed in ${elapsed} seconds."
 
 exit 0
